@@ -7,21 +7,65 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50vh 50vh;
 }
+/* Intro Section */
 .container__intro {
   grid-column: 1 / -1;
   background: #ffffff;
+  margin: 50px;
 }
+.container__intro__title {
+  color: hsl(179, 62%, 43%);
+  font-size: 34px;
+}
+.container__intro__title-two {
+  color: hsl(71, 73%, 54%);
+  font-size: 30px;
+}
+.container__intro__paragraph {
+  color: hsl(217, 22%, 67%);
+  font-size: 20px;
+  line-height: 1.5;
+}
+/* Sign-up section */
 .container__sign-up {
   grid-column: 1;
   grid-row: 2;
   background: hsl(179, 62%, 43%);
   color: #ffffff;
+  padding: 50px;
 }
+.container__sign-up__price {
+  font-size: 34px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.container__sign-up__button {
+  font-size: 16px;
+  font-weight: 700;
+  background: hsl(71, 73%, 54%);
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 5px 5px hsl(179, 63%, 32%);
+  margin-top: 30px;
+  padding: 20px 30px;
+  width: 100%;
+  cursor: pointer;
+}
+.container__sign-up__button:hover,
+.container__sign-up__button:focus {
+  background: hsl(71, 64%, 36%);
+}
+/* Why us section */
 .container__why-us {
   grid-column: 2;
   grid-row: 2;
   background: hsl(179, 60%, 55%);
   color: #ffffff;
+  padding: 50px;
+}
+.container__why-us__paragraph {
+  margin: 5px 0;
 }
 /* Attribution section */
 .attribution {
