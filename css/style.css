@@ -1,3 +1,28 @@
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50vh 50vh;
+}
+.container__intro {
+  grid-column: 1 / -1;
+  background: #ffffff;
+}
+.container__sign-up {
+  grid-column: 1;
+  grid-row: 2;
+  background: hsl(179, 62%, 43%);
+  color: #ffffff;
+}
+.container__why-us {
+  grid-column: 2;
+  grid-row: 2;
+  background: hsl(179, 60%, 55%);
+  color: #ffffff;
+}
 /* Attribution section */
 .attribution {
   font-size: 11px;
